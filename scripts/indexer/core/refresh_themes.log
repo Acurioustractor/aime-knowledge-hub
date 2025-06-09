@@ -1,0 +1,117 @@
+2025-06-07 21:07:57,685 - INFO - 🚀 Starting AIME Knowledge Hub theme refresh...
+2025-06-07 21:07:57,685 - INFO - 🔄 Starting theme refresh process...
+2025-06-07 21:07:57,685 - INFO - 📊 Fetching all themes from Airtable...
+2025-06-07 21:07:58,870 - INFO - ✅ Found 0 themes in Airtable
+2025-06-07 21:07:58,870 - INFO - 📄 Fetching all documents from Airtable...
+2025-06-07 21:08:00,228 - INFO - ✅ Found 26 documents in Airtable
+2025-06-07 21:08:00,228 - INFO - 🔍 Processing document: WE - Full presentation
+2025-06-07 21:08:00,228 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:01,843 - INFO -   ✅ WE - Full presentation - all theme links valid
+2025-06-07 21:08:01,843 - INFO - 🔍 Processing document: Citizens - Business case
+2025-06-07 21:08:01,843 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:03,613 - INFO -   ✅ Citizens - Business case - all theme links valid
+2025-06-07 21:08:03,613 - INFO - 🔍 Processing document: Letter to Billionaires
+2025-06-07 21:08:03,613 - INFO -   Current themes: 4 linked
+2025-06-07 21:08:04,993 - INFO -   ✅ Letter to Billionaires - all theme links valid
+2025-06-07 21:08:04,994 - INFO - 🔍 Processing document: IN {TV} Full Report
+2025-06-07 21:08:04,994 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:06,717 - INFO -   ✅ IN {TV} Full Report - all theme links valid
+2025-06-07 21:08:06,717 - INFO - 🔍 Processing document: Mentor Credit - Business Case
+2025-06-07 21:08:06,717 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:08,340 - INFO -   ✅ Mentor Credit - Business Case - all theme links valid
+2025-06-07 21:08:08,340 - INFO - 🔍 Processing document: Systems Change Residency: - Business Case
+2025-06-07 21:08:08,341 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:10,119 - INFO -   ✅ Systems Change Residency: - Business Case - all theme links valid
+2025-06-07 21:08:10,120 - INFO - 🔍 Processing document: IMAGI-NATION Deck - JM
+2025-06-07 21:08:10,120 - INFO -   Current themes: 4 linked
+2025-06-07 21:08:11,485 - INFO -   ✅ IMAGI-NATION Deck - JM - all theme links valid
+2025-06-07 21:08:11,485 - INFO - 🔍 Processing document: GRP Draft logic
+2025-06-07 21:08:11,485 - INFO -   Current themes: 4 linked
+2025-06-07 21:08:12,781 - INFO -   ✅ GRP Draft logic - all theme links valid
+2025-06-07 21:08:12,781 - INFO - 🔍 Processing document: IKSL - Business case
+2025-06-07 21:08:12,781 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:14,498 - INFO -   ✅ IKSL - Business case - all theme links valid
+2025-06-07 21:08:14,498 - INFO - 🔍 Processing document: Presidents - Business Case
+2025-06-07 21:08:14,498 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:16,127 - INFO -   ✅ Presidents - Business Case - all theme links valid
+2025-06-07 21:08:16,127 - INFO - 🔍 Processing document: About AIME
+2025-06-07 21:08:16,127 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:17,745 - INFO -   ✅ About AIME - all theme links valid
+2025-06-07 21:08:17,745 - INFO - 🔍 Processing document: JOY Business Case
+2025-06-07 21:08:17,745 - INFO -   Current themes: 4 linked
+2025-06-07 21:08:19,046 - INFO -   ✅ JOY Business Case - all theme links valid
+2025-06-07 21:08:19,046 - INFO - 🔍 Processing document: Lightning Dec 24
+2025-06-07 21:08:19,046 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:20,654 - INFO -   ✅ Lightning Dec 24 - all theme links valid
+2025-06-07 21:08:20,654 - INFO - 🔍 Processing document: IMAGI-NATION $100m Funder Invitation
+2025-06-07 21:08:20,654 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:22,288 - INFO -   ✅ IMAGI-NATION $100m Funder Invitation - all theme links valid
+2025-06-07 21:08:22,288 - INFO - 🔍 Processing document: Earth Commons Interview
+2025-06-07 21:08:22,288 - INFO -   Current themes: 3 linked
+2025-06-07 21:08:23,282 - INFO -   ✅ Earth Commons Interview - all theme links valid
+2025-06-07 21:08:23,283 - INFO - 🔍 Processing document: Partnering Letter
+2025-06-07 21:08:23,283 - INFO -   Current themes: 4 linked
+2025-06-07 21:08:24,574 - INFO -   ✅ Partnering Letter - all theme links valid
+2025-06-07 21:08:24,574 - INFO - 🔍 Processing document: Townhall Transcript
+2025-06-07 21:08:24,574 - INFO -   Current themes: 1 linked
+2025-06-07 21:08:24,912 - INFO -   ✅ Townhall Transcript - all theme links valid
+2025-06-07 21:08:24,912 - INFO - 🔍 Processing document: NATION Tour Video Transcript
+2025-06-07 21:08:24,912 - INFO -   Current themes: 4 linked
+2025-06-07 21:08:26,192 - INFO -   ✅ NATION Tour Video Transcript - all theme links valid
+2025-06-07 21:08:26,192 - INFO - 🔍 Processing document: IMAGI-Labs - Business case
+2025-06-07 21:08:26,192 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:27,850 - INFO -   ✅ IMAGI-Labs - Business case - all theme links valid
+2025-06-07 21:08:27,850 - INFO - 🔍 Processing document: Global Need
+2025-06-07 21:08:27,850 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:29,512 - INFO -   ✅ Global Need - all theme links valid
+2025-06-07 21:08:29,513 - INFO - 🔍 Processing document: Custodians - Business case
+2025-06-07 21:08:29,513 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:31,245 - INFO -   ✅ Custodians - Business case - all theme links valid
+2025-06-07 21:08:31,245 - INFO - 🔍 Processing document: Hoodie Economics
+2025-06-07 21:08:31,246 - INFO -   Current themes: 3 linked
+2025-06-07 21:08:32,212 - INFO -   ✅ Hoodie Economics - all theme links valid
+2025-06-07 21:08:32,214 - INFO - 🔍 Processing document: Letter to Humanity
+2025-06-07 21:08:32,214 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:33,864 - INFO -   ✅ Letter to Humanity - all theme links valid
+2025-06-07 21:08:33,864 - INFO - 🔍 Processing document: Federal Government Grant
+2025-06-07 21:08:33,871 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:35,562 - INFO -   ✅ Federal Government Grant - all theme links valid
+2025-06-07 21:08:35,562 - INFO - 🔍 Processing document: No Shame at AIME
+2025-06-07 21:08:35,562 - INFO -   Current themes: 5 linked
+2025-06-07 21:08:37,185 - INFO -   ✅ No Shame at AIME - all theme links valid
+2025-06-07 21:08:37,185 - INFO - 🔍 Processing document: IMAGI-NATION Summary
+2025-06-07 21:08:37,185 - INFO -   Current themes: 4 linked
+2025-06-07 21:08:38,556 - INFO -   ✅ IMAGI-NATION Summary - all theme links valid
+2025-06-07 21:08:38,556 - INFO - 🎉 Theme refresh complete! Updated 0 documents
+2025-06-07 21:08:38,556 - INFO - 🔍 Verifying frontend data...
+2025-06-07 21:08:38,556 - INFO - 📄 Fetching all documents from Airtable...
+2025-06-07 21:08:39,157 - INFO - ✅ Found 26 documents in Airtable
+2025-06-07 21:08:39,157 - INFO - 📊 Fetching all themes from Airtable...
+2025-06-07 21:08:39,486 - INFO - ✅ Found 0 themes in Airtable
+2025-06-07 21:08:39,486 - INFO - 📄 WE - Full presentation                   | Themes: Unknown(rece3HzZ), Unknown(recoPTTy), Unknown(recU1xIB)...
+2025-06-07 21:08:39,486 - INFO - 📄 Citizens - Business case                 | Themes: Unknown(rec2C6G3), Unknown(recOInft), Unknown(recT9yxs)...
+2025-06-07 21:08:39,486 - INFO - 📄 Letter to Billionaires                   | Themes: Unknown(rec22rSe), Unknown(rec2ynRb), Unknown(recOInft)...
+2025-06-07 21:08:39,486 - INFO - 📄 IN {TV} Full Report                      | Themes: Unknown(rechRE5n), Unknown(rect6FcL), Unknown(rec5C2iG)...
+2025-06-07 21:08:39,486 - INFO - 📄 Mentor Credit - Business Case            | Themes: Unknown(recFf6vJ), Unknown(recT74s3), Unknown(recMBkJS)...
+2025-06-07 21:08:39,486 - INFO - 📄 Systems Change Residency: - Business Cas | Themes: Unknown(recHG2OR), Unknown(recgfRth), Unknown(recdn8In)...
+2025-06-07 21:08:39,486 - INFO - 📄 IMAGI-NATION Deck - JM                   | Themes: Unknown(recHuO25), Unknown(recrCyhM), Unknown(rectNgOS)...
+2025-06-07 21:08:39,486 - INFO - 📄 GRP Draft logic                          | Themes: Unknown(rec2l7DG), Unknown(rec1ep1t), Unknown(rec22rSe)...
+2025-06-07 21:08:39,486 - INFO - 📄 IKSL - Business case                     | Themes: Unknown(recAx4iL), Unknown(recCXvOa), Unknown(recmM4D5)...
+2025-06-07 21:08:39,486 - INFO - 📄 Presidents - Business Case               | Themes: Unknown(rec5asTS), Unknown(recsWTgu), Unknown(recaB9ma)...
+2025-06-07 21:08:39,486 - INFO - 📄 About AIME                               | Themes: Unknown(recMBwiu), Unknown(recIsvYP), Unknown(recOInft)...
+2025-06-07 21:08:39,486 - INFO - 📄 JOY Business Case                        | Themes: Unknown(rec7KXzZ), Unknown(recBSXa1), Unknown(recKKcHK)...
+2025-06-07 21:08:39,486 - INFO - 📄 Lightning Dec 24                         | Themes: Unknown(rece3HzZ), Unknown(recAx4sW), Unknown(recU1xIB)...
+2025-06-07 21:08:39,486 - INFO - 📄 IMAGI-NATION $100m Funder Invitation     | Themes: Unknown(rec22rSe), Unknown(recMBwiu), Unknown(recOInft)...
+2025-06-07 21:08:39,486 - INFO - 📄 Earth Commons Interview                  | Themes: Unknown(recU1xIB), Unknown(recoPTTy), Unknown(recMBwiu)
+2025-06-07 21:08:39,486 - INFO - 📄 Partnering Letter                        | Themes: Unknown(recMBwiu), Unknown(recOInft), Unknown(recF10rH)...
+2025-06-07 21:08:39,486 - INFO - 📄 Townhall Transcript                      | Themes: Unknown(recqOpFD)
+2025-06-07 21:08:39,486 - INFO - 📄 NATION Tour Video Transcript             | Themes: Unknown(recgbZW1), Unknown(recpK27j), Unknown(rec7KXzZ)...
+2025-06-07 21:08:39,486 - INFO - 📄 IMAGI-Labs - Business case               | Themes: Unknown(recWP6Xd), Unknown(recsWGBn), Unknown(rec5DCDP)...
+2025-06-07 21:08:39,486 - INFO - 📄 Global Need                              | Themes: Unknown(rec2ynRb), Unknown(recB11eh), Unknown(recMBwiu)...
+2025-06-07 21:08:39,486 - INFO - 📄 Custodians - Business case               | Themes: Unknown(recjAEaE), Unknown(recwyqQu), Unknown(recJl5V4)...
+2025-06-07 21:08:39,486 - INFO - 📄 Hoodie Economics                         | Themes: Unknown(recMBkJS), Unknown(recU1xIB), Unknown(recXv0BR)
+2025-06-07 21:08:39,486 - INFO - 📄 Letter to Humanity                       | Themes: Unknown(recMBwiu), Unknown(rece3HzZ), Unknown(recoPTTy)...
+2025-06-07 21:08:39,486 - INFO - 📄 Federal Government Grant                 | Themes: Unknown(recfudGU), Unknown(recIsvYP), Unknown(rec2MBzp)...
+2025-06-07 21:08:39,486 - INFO - 📄 No Shame at AIME                         | Themes: Unknown(rec2MBzp), Unknown(recMBwiu), Unknown(recU1xIB)...
+2025-06-07 21:08:39,486 - INFO - 📄 IMAGI-NATION Summary                     | Themes: Unknown(recMBwiu), Unknown(recHuO25), Unknown(recbi7Vp)...
+2025-06-07 21:08:39,487 - INFO - ✅ Theme refresh completed successfully!

@@ -1,0 +1,354 @@
+2025-06-07 20:48:23,544 - INFO - 🎯 AIME Knowledge Hub - Metadata Fixer v2
+2025-06-07 20:48:23,544 - INFO - =========================================
+2025-06-07 20:48:23,549 - INFO - 🚀 Starting metadata fix for all documents...
+2025-06-07 20:48:26,003 - INFO - Retrieved 26 documents from Airtable
+2025-06-07 20:48:26,003 - INFO - 
+📄 Processing 1/26
+2025-06-07 20:48:26,003 - INFO - Processing: WE - Full presentation
+2025-06-07 20:48:26,003 - INFO - ⚪ No updates needed for WE - Full presentation
+2025-06-07 20:48:28,008 - INFO - 
+📄 Processing 2/26
+2025-06-07 20:48:28,009 - INFO - Processing: Citizens - Business case
+2025-06-07 20:48:28,009 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/FUf4UuZTW7WZu9W4TcwssQ/XFa3njyBgDoILHiE8xMjxpIMb7cy0u49Jtd8nh-FUDGx1lCDMSqO-XYaMDVG38FXpdZSx43693rDbb-NkKuSWJJ0vemhGcbdl3LN8Laa71rWDL7x99In0IggwBPxrRcbow67QqrXyDKrg_YKfiAreaB-26KCz6V1_IwV3YXzT1g/bHLuU90qxOEhBsgMQ-lOFmdkqjnY4JWkAwVGCzfWpeE
+2025-06-07 20:48:30,266 - INFO -   Extracted 56268 characters of text
+2025-06-07 20:48:30,267 - INFO -   Added full text: 56268 characters
+2025-06-07 20:48:30,267 - INFO -   Word count: 5378
+2025-06-07 20:48:30,267 - INFO -   Language: English
+2025-06-07 20:48:31,391 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:48:31,396 - INFO -   Summary: The document presents a business case for a program called Citizens that aims to shift change-making...
+2025-06-07 20:48:31,397 - INFO -   Themes: Entrepreneurship, Leadership, Social Impact, Collaboration, Systemic Change
+2025-06-07 20:48:32,404 - ERROR - Error updating document rec6KXadBjSgmQ2Qp: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/rec6KXadBjSgmQ2Qp', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:48:32,405 - INFO - ✅ Updated Citizens - Business case
+2025-06-07 20:48:34,409 - INFO - 
+📄 Processing 3/26
+2025-06-07 20:48:34,410 - INFO - Processing: Letter to Billionaires
+2025-06-07 20:48:34,411 - INFO - ⚪ No updates needed for Letter to Billionaires
+2025-06-07 20:48:36,416 - INFO - 
+📄 Processing 4/26
+2025-06-07 20:48:36,416 - INFO - Processing: IN {TV} Full Report
+2025-06-07 20:48:36,417 - INFO -   Word count: 1288
+2025-06-07 20:48:36,417 - INFO -   Language: English
+2025-06-07 20:48:37,530 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:48:37,533 - INFO -   Summary: The document provides a detailed report on the educational impact of IMAGI-NATION{TV} by AIME, showc...
+2025-06-07 20:48:37,533 - INFO -   Themes: Education, Social Impact, Research, Youth, Community
+2025-06-07 20:48:37,942 - ERROR - Error updating document recAOtKF00bJWwbCJ: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recAOtKF00bJWwbCJ', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:48:37,942 - INFO - ✅ Updated IN {TV} Full Report
+2025-06-07 20:48:39,945 - INFO - 
+📄 Processing 5/26
+2025-06-07 20:48:39,946 - INFO - Processing: Mentor Credit - Business Case
+2025-06-07 20:48:39,946 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/2BC86PAk6AVlzYzJy_vSfA/YxCyl-EWamMsNknl10z_jgy3no44eTl4tNZ_D90LW45iBGT7QDjmm38n99v7ogmGyz-Hu8q-7547F5FprhHxWonq7PYcOfEAtPseJxrROcakNyS99xUfKHhoVwW4zJ21yOYBG7TZwnn062EkaOjByaH27YlH_-6LZbkHtBtaqe8/_VIUcZ4tP_7IT_xXO0PEvWMKm9YWTkWyCB2yOJ6ib6c
+2025-06-07 20:48:42,063 - INFO -   Extracted 45291 characters of text
+2025-06-07 20:48:42,063 - INFO -   Added full text: 45291 characters
+2025-06-07 20:48:42,063 - INFO -   Word count: 4528
+2025-06-07 20:48:42,063 - INFO -   Language: English
+2025-06-07 20:48:42,875 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:48:42,877 - INFO -   Summary: The document presents a business case for Mentor Credit, a program that aims to transform knowledge ...
+2025-06-07 20:48:42,877 - INFO -   Themes: Education, Innovation, Business, Leadership, Social Impact
+2025-06-07 20:48:43,325 - ERROR - Error updating document recDNArTEGqLo7u9n: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDNArTEGqLo7u9n', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:48:43,325 - INFO - ✅ Updated Mentor Credit - Business Case
+2025-06-07 20:48:45,330 - INFO - 
+📄 Processing 6/26
+2025-06-07 20:48:45,331 - INFO - Processing: Systems Change Residency: - Business Case
+2025-06-07 20:48:45,332 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/sqNa98FSvAkZ5W5Y80HUbQ/PJN9ReuQUFUa0CnthSsLnKuJJ4TD1MOKLCNYwmVApRp8l5Zi1faq9-xW2lJIGY9GOv0wX-qsCM-7jC4OFBqK70Ut0hrZtrgLDy4Na9nTgjFxiAGjQxpGVQqbV6ZKLyB7RQcTTjJ5D75IbB4QVpCKOj57RehFxwZ7k-XBNNHW91uRK_LgwbbvwofLZfd2S_8p/7lysWTWl7En0_UAP8L60OL2ri7dzFy-KLEcKrUgHDoo
+2025-06-07 20:48:46,248 - INFO -   Extracted 49917 characters of text
+2025-06-07 20:48:46,248 - INFO -   Added full text: 49917 characters
+2025-06-07 20:48:46,248 - INFO -   Word count: 4867
+2025-06-07 20:48:46,249 - INFO -   Language: English
+2025-06-07 20:48:47,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:48:47,618 - INFO -   Summary: The document outlines the Systems Change Residency program, which aims to support visionary innovato...
+2025-06-07 20:48:47,618 - INFO -   Themes: Innovation, Social Impact, Collaboration, Funding, Leadership
+2025-06-07 20:48:48,271 - ERROR - Error updating document recDSuzFz7t5qzvE0: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDSuzFz7t5qzvE0', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:48:48,271 - INFO - ✅ Updated Systems Change Residency: - Business Case
+2025-06-07 20:48:50,274 - INFO - 
+📄 Processing 7/26
+2025-06-07 20:48:50,275 - INFO - Processing: IMAGI-NATION Deck - JM
+2025-06-07 20:48:50,276 - INFO - ⚪ No updates needed for IMAGI-NATION Deck - JM
+2025-06-07 20:48:52,281 - INFO - 
+📄 Processing 8/26
+2025-06-07 20:48:52,282 - INFO - Processing: GRP Draft logic
+2025-06-07 20:48:52,283 - INFO - ⚪ No updates needed for GRP Draft logic
+2025-06-07 20:48:54,288 - INFO - 
+📄 Processing 9/26
+2025-06-07 20:48:54,288 - INFO - Processing: IKSL - Business case
+2025-06-07 20:48:54,289 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/4I2IShwa7QvS7aXAcPcPbg/vEvlNRM-hDQhrpLg1Z9wOhtvosmjPH1uO0CGD3a77fqF34yWYM6QcYvDLyM10p6qgvBIzcGHzff1h02n6lcs-ocSSOc5xAA9Z3LeBC_3ZPrcvE2s9d5ShbLeJXETg6RXRuuq7TCrFHl84KAnsSlCDOxhlvqyvA_HLHYOg1jYhK-g6PLlFJm4-rI8IxieNAiO/ETxxvE-FJ6MJFprgpUBxyQucp9E79dkf1dMnA6m5bMo
+2025-06-07 20:48:56,505 - INFO -   Extracted 49206 characters of text
+2025-06-07 20:48:56,506 - INFO -   Added full text: 49206 characters
+2025-06-07 20:48:56,506 - INFO -   Word count: 4754
+2025-06-07 20:48:56,506 - INFO -   Language: English
+2025-06-07 20:48:58,056 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:48:58,062 - INFO -   Summary: The document presents a business case for Indigenous Knowledge Systems Labs (IKSL), emphasizing the ...
+2025-06-07 20:48:58,063 - INFO -   Themes: Indigenous, Innovation, Sustainability, Community, Economics
+2025-06-07 20:48:58,550 - ERROR - Error updating document recG3twq8Kx2R2ypr: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recG3twq8Kx2R2ypr', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:48:58,550 - INFO - ✅ Updated IKSL - Business case
+2025-06-07 20:49:00,555 - INFO - 
+📄 Processing 10/26
+2025-06-07 20:49:00,556 - INFO - Processing: Presidents - Business Case
+2025-06-07 20:49:00,556 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/Cc9XYVjEQEgQLZTpoxTi3g/HR4rF0BnO7jNakplll0k0ROLNLdoWZjCV_y9yCyp3YaTpSYQ5yUVPS1butZn02vg3SkufmQs8O31ZCQekWAhWB8d8Zd_KE1bjm77faVTto6Fr1JhSJm7zeJaMkXCOJtG45YOMP6IoK141hiJxUzmneCFEoJWNUZJhOCQ31hNnbk/E78qRntrWAb7sxdFxvB1q9-2H4FlZ_JgjrmytO45GK8
+2025-06-07 20:49:02,728 - INFO -   Extracted 52857 characters of text
+2025-06-07 20:49:02,729 - INFO -   Added full text: 52857 characters
+2025-06-07 20:49:02,729 - INFO -   Word count: 5164
+2025-06-07 20:49:02,729 - INFO -   Language: English
+2025-06-07 20:49:03,664 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:49:03,668 - INFO -   Summary: The document discusses a program called Presidents that aims to empower young leaders, particularly ...
+2025-06-07 20:49:03,668 - INFO -   Themes: Youth, Indigenous, Social Impact, Education, Leadership
+2025-06-07 20:49:04,156 - ERROR - Error updating document recHPVRGxDee7hDSO: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recHPVRGxDee7hDSO', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:49:04,156 - INFO - ✅ Updated Presidents - Business Case
+2025-06-07 20:49:06,159 - INFO - 
+📄 Processing 11/26
+2025-06-07 20:49:06,159 - INFO - Processing: About AIME
+2025-06-07 20:49:06,160 - INFO - ⚪ No updates needed for About AIME
+2025-06-07 20:49:08,161 - INFO - 
+📄 Processing 12/26
+2025-06-07 20:49:08,161 - INFO - Processing: JOY Business Case
+2025-06-07 20:49:08,163 - INFO - ⚪ No updates needed for JOY Business Case
+2025-06-07 20:49:10,166 - INFO - 
+📄 Processing 13/26
+2025-06-07 20:49:10,167 - INFO - Processing: Lightning Dec 24
+2025-06-07 20:49:10,169 - INFO - ⚪ No updates needed for Lightning Dec 24
+2025-06-07 20:49:12,174 - INFO - 
+📄 Processing 14/26
+2025-06-07 20:49:12,175 - INFO - Processing: IMAGI-NATION $100m Funder Invitation
+2025-06-07 20:49:12,179 - INFO - ⚪ No updates needed for IMAGI-NATION $100m Funder Invitation
+2025-06-07 20:49:14,181 - INFO - 
+📄 Processing 15/26
+2025-06-07 20:49:14,181 - INFO - Processing: Earth Commons Interview
+2025-06-07 20:49:14,182 - INFO - ⚪ No updates needed for Earth Commons Interview
+2025-06-07 20:49:16,182 - INFO - 
+📄 Processing 16/26
+2025-06-07 20:49:16,182 - INFO - Processing: Partnering Letter
+2025-06-07 20:49:16,183 - INFO - ⚪ No updates needed for Partnering Letter
+2025-06-07 20:49:18,187 - INFO - 
+📄 Processing 17/26
+2025-06-07 20:49:18,187 - INFO - Processing: Townhall Transcript
+2025-06-07 20:49:18,190 - INFO - ⚪ No updates needed for Townhall Transcript
+2025-06-07 20:49:20,196 - INFO - 
+📄 Processing 18/26
+2025-06-07 20:49:20,196 - INFO - Processing: NATION Tour Video Transcript
+2025-06-07 20:49:20,196 - INFO - ⚪ No updates needed for NATION Tour Video Transcript
+2025-06-07 20:49:22,200 - INFO - 
+📄 Processing 19/26
+2025-06-07 20:49:22,200 - INFO - Processing: IMAGI-Labs - Business case
+2025-06-07 20:49:22,200 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/uW7_Yl8tER-DI6wABW3OQg/lvuI2OpXIM3xfrtMwuL_GnPN_sUUQdi-bXLjxS5r7WpRNbAkSCMHSntJFv9snXAp_U-RqLKhDJnZ_o5fk1JNzXXtcX0WjPHl4s7jDVmtkXTMbTpB4RKWXrDr6jFM-NMQ4y-_6tXpUemLFTMjNPspVXv6kVfvuKocGWj-GW8Z-QA/wJ50G7V1GSo2T49JKkDdclXa2GWYhypyBW2vNInzfL4
+2025-06-07 20:49:24,408 - INFO -   Extracted 52350 characters of text
+2025-06-07 20:49:24,409 - INFO -   Added full text: 52350 characters
+2025-06-07 20:49:24,409 - INFO -   Word count: 5128
+2025-06-07 20:49:24,409 - INFO -   Language: English
+2025-06-07 20:49:26,058 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:49:26,060 - INFO -   Summary: IMAGI-Labs presents a transformative approach to education, shifting from passive knowledge consumpt...
+2025-06-07 20:49:26,060 - INFO -   Themes: Education, Innovation, Research, Leadership, Social Impact
+2025-06-07 20:49:26,526 - ERROR - Error updating document recb9WYbZVabylslv: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recb9WYbZVabylslv', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:49:26,527 - INFO - ✅ Updated IMAGI-Labs - Business case
+2025-06-07 20:49:28,531 - INFO - 
+📄 Processing 20/26
+2025-06-07 20:49:28,531 - INFO - Processing: Global Need
+2025-06-07 20:49:28,532 - INFO - ⚪ No updates needed for Global Need
+2025-06-07 20:49:30,538 - INFO - 
+📄 Processing 21/26
+2025-06-07 20:49:30,538 - INFO - Processing: Custodians - Business case
+2025-06-07 20:49:30,538 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/ucULSSNzAhpkKlpFaiknYw/MmUb1_VwirH82T9R0OnEITVIZWIwd2Cbwe4VfjJ-vbLpnSiqi8ZQ6BQzAXfJ1p95GEMyHBykakBXLS_9GpnyPY5xcbB9KG-BaGhRTPT-64Ta5JsNBmaLM8xQt-ekbV-kO8t0xJtHrUY9ApbLUUw2Ud3j2lpqNW593h_pWPqIT8s/39LVJKEY0_vcVai9cpJ4Puz4drMdbR5cnxwhq9MzevI
+2025-06-07 20:49:32,756 - INFO -   Extracted 55219 characters of text
+2025-06-07 20:49:32,756 - INFO -   Added full text: 55219 characters
+2025-06-07 20:49:32,756 - INFO -   Word count: 5257
+2025-06-07 20:49:32,756 - INFO -   Language: English
+2025-06-07 20:49:33,996 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:49:33,997 - INFO -   Summary: The document presents a business case for Custodians, a novel approach to network governance that co...
+2025-06-07 20:49:33,998 - INFO -   Themes: Innovation, Community, Indigenous, Leadership, Technology
+2025-06-07 20:49:34,441 - ERROR - Error updating document recqOZl5K1MgAD5BB: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recqOZl5K1MgAD5BB', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:49:34,441 - INFO - ✅ Updated Custodians - Business case
+2025-06-07 20:49:36,446 - INFO - 
+📄 Processing 22/26
+2025-06-07 20:49:36,447 - INFO - Processing: Hoodie Economics
+2025-06-07 20:49:36,450 - INFO - ⚪ No updates needed for Hoodie Economics
+2025-06-07 20:49:38,451 - INFO - 
+📄 Processing 23/26
+2025-06-07 20:49:38,452 - INFO - Processing: Letter to Humanity
+2025-06-07 20:49:38,452 - INFO - ⚪ No updates needed for Letter to Humanity
+2025-06-07 20:49:40,455 - INFO - 
+📄 Processing 24/26
+2025-06-07 20:49:40,455 - INFO - Processing: Federal Government Grant
+2025-06-07 20:49:40,456 - INFO - ⚪ No updates needed for Federal Government Grant
+2025-06-07 20:49:42,461 - INFO - 
+📄 Processing 25/26
+2025-06-07 20:49:42,461 - INFO - Processing: No Shame at AIME
+2025-06-07 20:49:42,462 - INFO - ⚪ No updates needed for No Shame at AIME
+2025-06-07 20:49:44,467 - INFO - 
+📄 Processing 26/26
+2025-06-07 20:49:44,467 - INFO - Processing: IMAGI-NATION Summary
+2025-06-07 20:49:44,467 - INFO - ⚪ No updates needed for IMAGI-NATION Summary
+2025-06-07 20:49:46,472 - INFO - 
+🎉 Completed metadata fix for 26 documents!
+2025-06-07 20:49:46,472 - INFO - 📊 Check your Airtable to see the populated metadata
+2025-06-07 20:52:36,132 - INFO - 🎯 AIME Knowledge Hub - Metadata Fixer v2
+2025-06-07 20:52:36,132 - INFO - =========================================
+2025-06-07 20:52:36,137 - INFO - 🚀 Starting metadata fix for all documents...
+2025-06-07 20:52:38,410 - INFO - Retrieved 26 documents from Airtable
+2025-06-07 20:52:38,410 - INFO - 
+📄 Processing 1/26
+2025-06-07 20:52:38,410 - INFO - Processing: WE - Full presentation
+2025-06-07 20:52:38,411 - INFO - ⚪ No updates needed for WE - Full presentation
+2025-06-07 20:52:40,412 - INFO - 
+📄 Processing 2/26
+2025-06-07 20:52:40,413 - INFO - Processing: Citizens - Business case
+2025-06-07 20:52:40,415 - INFO -   Word count: 5378
+2025-06-07 20:52:40,416 - INFO -   Language: English
+2025-06-07 20:52:41,669 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:52:41,676 - INFO -   Summary: The document outlines a business case for social entrepreneurs and change leadership organizations, ...
+2025-06-07 20:52:41,676 - INFO -   Themes: Entrepreneurship, Leadership, Social Impact, Collaboration, Innovation
+2025-06-07 20:52:42,042 - ERROR - Error updating document rec6KXadBjSgmQ2Qp: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/rec6KXadBjSgmQ2Qp', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:52:42,042 - INFO - ✅ Updated Citizens - Business case
+2025-06-07 20:52:44,047 - INFO - 
+📄 Processing 3/26
+2025-06-07 20:52:44,048 - INFO - Processing: Letter to Billionaires
+2025-06-07 20:52:44,051 - INFO - ⚪ No updates needed for Letter to Billionaires
+2025-06-07 20:52:46,056 - INFO - 
+📄 Processing 4/26
+2025-06-07 20:52:46,057 - INFO - Processing: IN {TV} Full Report
+2025-06-07 20:52:46,057 - INFO -   Word count: 1288
+2025-06-07 20:52:46,058 - INFO -   Language: English
+2025-06-07 20:52:47,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:52:47,712 - INFO -   Summary: The document provides a detailed report on the educational impact of IMAGI-NATION{TV} by AIME, showc...
+2025-06-07 20:52:47,712 - INFO -   Themes: Education, Social Impact, Research, Youth, Community
+2025-06-07 20:52:48,114 - ERROR - Error updating document recAOtKF00bJWwbCJ: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recAOtKF00bJWwbCJ', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:52:48,115 - INFO - ✅ Updated IN {TV} Full Report
+2025-06-07 20:52:50,119 - INFO - 
+📄 Processing 5/26
+2025-06-07 20:52:50,120 - INFO - Processing: Mentor Credit - Business Case
+2025-06-07 20:52:50,121 - INFO -   Word count: 4528
+2025-06-07 20:52:50,121 - INFO -   Language: English
+2025-06-07 20:52:51,651 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:52:51,654 - INFO -   Summary: The document presents a business case for Mentor Credit, a system that aims to transform knowledge e...
+2025-06-07 20:52:51,654 - INFO -   Themes: Education, Innovation, Business, Leadership, Social Impact
+2025-06-07 20:52:52,037 - ERROR - Error updating document recDNArTEGqLo7u9n: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDNArTEGqLo7u9n', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:52:52,037 - INFO - ✅ Updated Mentor Credit - Business Case
+2025-06-07 20:52:54,042 - INFO - 
+📄 Processing 6/26
+2025-06-07 20:52:54,042 - INFO - Processing: Systems Change Residency: - Business Case
+2025-06-07 20:52:54,042 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/sqNa98FSvAkZ5W5Y80HUbQ/PJN9ReuQUFUa0CnthSsLnKuJJ4TD1MOKLCNYwmVApRp8l5Zi1faq9-xW2lJIGY9GOv0wX-qsCM-7jC4OFBqK70Ut0hrZtrgLDy4Na9nTgjFxiAGjQxpGVQqbV6ZKLyB7RQcTTjJ5D75IbB4QVpCKOj57RehFxwZ7k-XBNNHW91uRK_LgwbbvwofLZfd2S_8p/7lysWTWl7En0_UAP8L60OL2ri7dzFy-KLEcKrUgHDoo
+2025-06-07 20:52:54,961 - INFO -   Extracted 49917 characters of text
+2025-06-07 20:52:54,961 - INFO -   Added full text: 49917 characters
+2025-06-07 20:52:54,961 - INFO -   Word count: 4867
+2025-06-07 20:52:54,961 - INFO -   Language: English
+2025-06-07 20:52:55,986 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:52:55,988 - INFO -   Summary: The document outlines the Systems Change Residency program, which aims to support visionary innovato...
+2025-06-07 20:52:55,988 - INFO -   Themes: Innovation, Social Impact, Leadership, Technology, Partnerships
+2025-06-07 20:52:56,899 - ERROR - Error updating document recDSuzFz7t5qzvE0: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDSuzFz7t5qzvE0', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:52:56,900 - INFO - ✅ Updated Systems Change Residency: - Business Case
+2025-06-07 20:52:58,901 - INFO - 
+📄 Processing 7/26
+2025-06-07 20:52:58,902 - INFO - Processing: IMAGI-NATION Deck - JM
+2025-06-07 20:52:58,903 - INFO - ⚪ No updates needed for IMAGI-NATION Deck - JM
+2025-06-07 20:53:00,908 - INFO - 
+📄 Processing 8/26
+2025-06-07 20:53:00,909 - INFO - Processing: GRP Draft logic
+2025-06-07 20:53:00,910 - INFO - ⚪ No updates needed for GRP Draft logic
+2025-06-07 20:53:02,912 - INFO - 
+📄 Processing 9/26
+2025-06-07 20:53:02,912 - INFO - Processing: IKSL - Business case
+2025-06-07 20:53:02,912 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/4I2IShwa7QvS7aXAcPcPbg/vEvlNRM-hDQhrpLg1Z9wOhtvosmjPH1uO0CGD3a77fqF34yWYM6QcYvDLyM10p6qgvBIzcGHzff1h02n6lcs-ocSSOc5xAA9Z3LeBC_3ZPrcvE2s9d5ShbLeJXETg6RXRuuq7TCrFHl84KAnsSlCDOxhlvqyvA_HLHYOg1jYhK-g6PLlFJm4-rI8IxieNAiO/ETxxvE-FJ6MJFprgpUBxyQucp9E79dkf1dMnA6m5bMo
+2025-06-07 20:53:03,829 - INFO -   Extracted 49206 characters of text
+2025-06-07 20:53:03,830 - INFO -   Added full text: 49206 characters
+2025-06-07 20:53:03,830 - INFO -   Word count: 4754
+2025-06-07 20:53:03,830 - INFO -   Language: English
+2025-06-07 20:53:05,359 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:53:05,362 - INFO -   Summary: The document presents a business case for Indigenous Knowledge Systems Labs (IKSL), emphasizing the ...
+2025-06-07 20:53:05,362 - INFO -   Themes: Indigenous, Innovation, Sustainability, Research, Community
+2025-06-07 20:53:06,003 - ERROR - Error updating document recG3twq8Kx2R2ypr: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recG3twq8Kx2R2ypr', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:53:06,004 - INFO - ✅ Updated IKSL - Business case
+2025-06-07 20:53:08,004 - INFO - 
+📄 Processing 10/26
+2025-06-07 20:53:08,005 - INFO - Processing: Presidents - Business Case
+2025-06-07 20:53:08,005 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/Cc9XYVjEQEgQLZTpoxTi3g/HR4rF0BnO7jNakplll0k0ROLNLdoWZjCV_y9yCyp3YaTpSYQ5yUVPS1butZn02vg3SkufmQs8O31ZCQekWAhWB8d8Zd_KE1bjm77faVTto6Fr1JhSJm7zeJaMkXCOJtG45YOMP6IoK141hiJxUzmneCFEoJWNUZJhOCQ31hNnbk/E78qRntrWAb7sxdFxvB1q9-2H4FlZ_JgjrmytO45GK8
+2025-06-07 20:53:08,962 - INFO -   Extracted 52857 characters of text
+2025-06-07 20:53:08,963 - INFO -   Added full text: 52857 characters
+2025-06-07 20:53:08,963 - INFO -   Word count: 5164
+2025-06-07 20:53:08,963 - INFO -   Language: English
+2025-06-07 20:53:10,223 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:53:10,225 - INFO -   Summary: The document outlines a program called Presidents that aims to empower young leaders, particularly I...
+2025-06-07 20:53:10,225 - INFO -   Themes: Youth, Indigenous, Social Impact, Education, Leadership
+2025-06-07 20:53:10,636 - ERROR - Error updating document recHPVRGxDee7hDSO: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recHPVRGxDee7hDSO', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:53:10,636 - INFO - ✅ Updated Presidents - Business Case
+2025-06-07 20:53:12,637 - INFO - 
+📄 Processing 11/26
+2025-06-07 20:53:12,638 - INFO - Processing: About AIME
+2025-06-07 20:53:12,639 - INFO - ⚪ No updates needed for About AIME
+2025-06-07 20:53:14,641 - INFO - 
+📄 Processing 12/26
+2025-06-07 20:53:14,641 - INFO - Processing: JOY Business Case
+2025-06-07 20:53:14,643 - INFO - ⚪ No updates needed for JOY Business Case
+2025-06-07 20:53:16,643 - INFO - 
+📄 Processing 13/26
+2025-06-07 20:53:16,644 - INFO - Processing: Lightning Dec 24
+2025-06-07 20:53:16,645 - INFO - ⚪ No updates needed for Lightning Dec 24
+2025-06-07 20:53:18,648 - INFO - 
+📄 Processing 14/26
+2025-06-07 20:53:18,648 - INFO - Processing: IMAGI-NATION $100m Funder Invitation
+2025-06-07 20:53:18,650 - INFO - ⚪ No updates needed for IMAGI-NATION $100m Funder Invitation
+2025-06-07 20:53:20,650 - INFO - 
+📄 Processing 15/26
+2025-06-07 20:53:20,651 - INFO - Processing: Earth Commons Interview
+2025-06-07 20:53:20,652 - INFO - ⚪ No updates needed for Earth Commons Interview
+2025-06-07 20:53:22,657 - INFO - 
+📄 Processing 16/26
+2025-06-07 20:53:22,657 - INFO - Processing: Partnering Letter
+2025-06-07 20:53:22,658 - INFO - ⚪ No updates needed for Partnering Letter
+2025-06-07 20:53:24,662 - INFO - 
+📄 Processing 17/26
+2025-06-07 20:53:24,662 - INFO - Processing: Townhall Transcript
+2025-06-07 20:53:24,665 - INFO - ⚪ No updates needed for Townhall Transcript
+2025-06-07 20:53:26,670 - INFO - 
+📄 Processing 18/26
+2025-06-07 20:53:26,670 - INFO - Processing: NATION Tour Video Transcript
+2025-06-07 20:53:26,671 - INFO - ⚪ No updates needed for NATION Tour Video Transcript
+2025-06-07 20:53:28,677 - INFO - 
+📄 Processing 19/26
+2025-06-07 20:53:28,677 - INFO - Processing: IMAGI-Labs - Business case
+2025-06-07 20:53:28,677 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/uW7_Yl8tER-DI6wABW3OQg/lvuI2OpXIM3xfrtMwuL_GnPN_sUUQdi-bXLjxS5r7WpRNbAkSCMHSntJFv9snXAp_U-RqLKhDJnZ_o5fk1JNzXXtcX0WjPHl4s7jDVmtkXTMbTpB4RKWXrDr6jFM-NMQ4y-_6tXpUemLFTMjNPspVXv6kVfvuKocGWj-GW8Z-QA/wJ50G7V1GSo2T49JKkDdclXa2GWYhypyBW2vNInzfL4
+2025-06-07 20:53:29,619 - INFO -   Extracted 52350 characters of text
+2025-06-07 20:53:29,619 - INFO -   Added full text: 52350 characters
+2025-06-07 20:53:29,619 - INFO -   Word count: 5128
+2025-06-07 20:53:29,619 - INFO -   Language: English
+2025-06-07 20:53:30,902 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:53:30,904 - INFO -   Summary: IMAGI-Labs presents a transformative approach to education, shifting from passive knowledge consumpt...
+2025-06-07 20:53:30,904 - INFO -   Themes: Education, Innovation, Research, Leadership, Social Impact
+2025-06-07 20:53:31,383 - ERROR - Error updating document recb9WYbZVabylslv: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recb9WYbZVabylslv', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:53:31,384 - INFO - ✅ Updated IMAGI-Labs - Business case
+2025-06-07 20:53:33,389 - INFO - 
+📄 Processing 20/26
+2025-06-07 20:53:33,389 - INFO - Processing: Global Need
+2025-06-07 20:53:33,389 - INFO - ⚪ No updates needed for Global Need
+2025-06-07 20:53:35,391 - INFO - 
+📄 Processing 21/26
+2025-06-07 20:53:35,391 - INFO - Processing: Custodians - Business case
+2025-06-07 20:53:35,391 - INFO -   Extracting text from PDF: https://v5.airtableusercontent.com/v3/u/41/41/1749304800000/ucULSSNzAhpkKlpFaiknYw/MmUb1_VwirH82T9R0OnEITVIZWIwd2Cbwe4VfjJ-vbLpnSiqi8ZQ6BQzAXfJ1p95GEMyHBykakBXLS_9GpnyPY5xcbB9KG-BaGhRTPT-64Ta5JsNBmaLM8xQt-ekbV-kO8t0xJtHrUY9ApbLUUw2Ud3j2lpqNW593h_pWPqIT8s/39LVJKEY0_vcVai9cpJ4Puz4drMdbR5cnxwhq9MzevI
+2025-06-07 20:53:36,385 - INFO -   Extracted 55219 characters of text
+2025-06-07 20:53:36,385 - INFO -   Added full text: 55219 characters
+2025-06-07 20:53:36,385 - INFO -   Word count: 5257
+2025-06-07 20:53:36,385 - INFO -   Language: English
+2025-06-07 20:53:37,541 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:53:37,545 - INFO -   Summary: The document presents Custodians as a novel approach to network governance that combines cutting-edg...
+2025-06-07 20:53:37,545 - INFO -   Themes: Innovation, Leadership, Community, Indigenous, Research
+2025-06-07 20:53:37,941 - ERROR - Error updating document recqOZl5K1MgAD5BB: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recqOZl5K1MgAD5BB', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:53:37,941 - INFO - ✅ Updated Custodians - Business case
+2025-06-07 20:53:39,945 - INFO - 
+📄 Processing 22/26
+2025-06-07 20:53:39,946 - INFO - Processing: Hoodie Economics
+2025-06-07 20:53:39,949 - INFO - ⚪ No updates needed for Hoodie Economics
+2025-06-07 20:53:41,953 - INFO - 
+📄 Processing 23/26
+2025-06-07 20:53:41,954 - INFO - Processing: Letter to Humanity
+2025-06-07 20:53:41,954 - INFO - ⚪ No updates needed for Letter to Humanity
+2025-06-07 20:53:43,958 - INFO - 
+📄 Processing 24/26
+2025-06-07 20:53:43,959 - INFO - Processing: Federal Government Grant
+2025-06-07 20:53:43,960 - INFO - ⚪ No updates needed for Federal Government Grant
+2025-06-07 20:53:45,962 - INFO - 
+📄 Processing 25/26
+2025-06-07 20:53:45,962 - INFO - Processing: No Shame at AIME
+2025-06-07 20:53:45,962 - INFO - ⚪ No updates needed for No Shame at AIME
+2025-06-07 20:53:47,965 - INFO - 
+📄 Processing 26/26
+2025-06-07 20:53:47,965 - INFO - Processing: IMAGI-NATION Summary
+2025-06-07 20:53:47,966 - INFO - ⚪ No updates needed for IMAGI-NATION Summary
+2025-06-07 20:53:49,970 - INFO - 
+🎉 Completed metadata fix for 26 documents!
+2025-06-07 20:53:49,970 - INFO - 📊 Check your Airtable to see the populated metadata

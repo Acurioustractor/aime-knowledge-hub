@@ -1,0 +1,145 @@
+2025-06-07 20:45:58,198 - INFO - 🎯 AIME Knowledge Hub - Metadata Fixer
+2025-06-07 20:45:58,198 - INFO - =====================================
+2025-06-07 20:45:58,212 - INFO - 🚀 Starting metadata fix for all documents...
+2025-06-07 20:46:00,499 - INFO - Retrieved 26 documents from Airtable
+2025-06-07 20:46:00,499 - INFO - 
+📄 Processing 1/26
+2025-06-07 20:46:00,499 - INFO - Processing: WE - Full presentation
+2025-06-07 20:46:00,499 - INFO - ⚪ No updates needed for WE - Full presentation
+2025-06-07 20:46:01,505 - INFO - 
+📄 Processing 2/26
+2025-06-07 20:46:01,505 - INFO - Processing: Citizens - Business case
+2025-06-07 20:46:01,505 - INFO -   Word count: 0
+2025-06-07 20:46:01,505 - INFO -   Language: English
+2025-06-07 20:46:01,505 - WARNING -   No text content available for Citizens - Business case
+2025-06-07 20:46:01,891 - ERROR - Error updating document rec6KXadBjSgmQ2Qp: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/rec6KXadBjSgmQ2Qp', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:01,891 - INFO - ✅ Updated Citizens - Business case
+2025-06-07 20:46:02,896 - INFO - 
+📄 Processing 3/26
+2025-06-07 20:46:02,896 - INFO - Processing: Letter to Billionaires
+2025-06-07 20:46:02,896 - INFO - ⚪ No updates needed for Letter to Billionaires
+2025-06-07 20:46:03,898 - INFO - 
+📄 Processing 4/26
+2025-06-07 20:46:03,898 - INFO - Processing: IN {TV} Full Report
+2025-06-07 20:46:03,898 - INFO -   Word count: 1288
+2025-06-07 20:46:03,898 - INFO -   Language: English
+2025-06-07 20:46:05,246 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:46:05,255 - INFO -   Summary: The document provides a detailed report on the educational impact of IMAGI-NATION{TV} by AIME, showc...
+2025-06-07 20:46:05,255 - INFO -   Topics: Education, Social Impact, Innovation, Youth, Community
+2025-06-07 20:46:05,653 - ERROR - Error updating document recAOtKF00bJWwbCJ: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recAOtKF00bJWwbCJ', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:05,654 - INFO - ✅ Updated IN {TV} Full Report
+2025-06-07 20:46:06,658 - INFO - 
+📄 Processing 5/26
+2025-06-07 20:46:06,659 - INFO - Processing: Mentor Credit - Business Case
+2025-06-07 20:46:06,659 - INFO -   Word count: 0
+2025-06-07 20:46:06,659 - INFO -   Language: English
+2025-06-07 20:46:06,659 - WARNING -   No text content available for Mentor Credit - Business Case
+2025-06-07 20:46:07,057 - ERROR - Error updating document recDNArTEGqLo7u9n: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDNArTEGqLo7u9n', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:07,058 - INFO - ✅ Updated Mentor Credit - Business Case
+2025-06-07 20:46:08,061 - INFO - 
+📄 Processing 6/26
+2025-06-07 20:46:08,061 - INFO - Processing: Systems Change Residency: - Business Case
+2025-06-07 20:46:08,061 - INFO -   Word count: 0
+2025-06-07 20:46:08,062 - INFO -   Language: English
+2025-06-07 20:46:08,062 - WARNING -   No text content available for Systems Change Residency: - Business Case
+2025-06-07 20:46:08,467 - ERROR - Error updating document recDSuzFz7t5qzvE0: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDSuzFz7t5qzvE0', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:08,467 - INFO - ✅ Updated Systems Change Residency: - Business Case
+2025-06-07 20:46:09,472 - INFO - 
+📄 Processing 7/26
+2025-06-07 20:46:09,473 - INFO - Processing: IMAGI-NATION Deck - JM
+2025-06-07 20:46:09,474 - INFO - ⚪ No updates needed for IMAGI-NATION Deck - JM
+2025-06-07 20:46:10,480 - INFO - 
+📄 Processing 8/26
+2025-06-07 20:46:10,480 - INFO - Processing: GRP Draft logic
+2025-06-07 20:46:10,481 - INFO - ⚪ No updates needed for GRP Draft logic
+2025-06-07 20:46:11,483 - INFO - 
+📄 Processing 9/26
+2025-06-07 20:46:11,484 - INFO - Processing: IKSL - Business case
+2025-06-07 20:46:11,484 - INFO -   Word count: 0
+2025-06-07 20:46:11,484 - INFO -   Language: English
+2025-06-07 20:46:11,485 - WARNING -   No text content available for IKSL - Business case
+2025-06-07 20:46:11,910 - ERROR - Error updating document recG3twq8Kx2R2ypr: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recG3twq8Kx2R2ypr', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:11,911 - INFO - ✅ Updated IKSL - Business case
+2025-06-07 20:46:12,913 - INFO - 
+📄 Processing 10/26
+2025-06-07 20:46:12,913 - INFO - Processing: Presidents - Business Case
+2025-06-07 20:46:12,914 - INFO -   Word count: 0
+2025-06-07 20:46:12,914 - INFO -   Language: English
+2025-06-07 20:46:12,914 - WARNING -   No text content available for Presidents - Business Case
+2025-06-07 20:46:13,308 - ERROR - Error updating document recHPVRGxDee7hDSO: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recHPVRGxDee7hDSO', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:13,309 - INFO - ✅ Updated Presidents - Business Case
+2025-06-07 20:46:14,310 - INFO - 
+📄 Processing 11/26
+2025-06-07 20:46:14,310 - INFO - Processing: About AIME
+2025-06-07 20:46:14,311 - INFO - ⚪ No updates needed for About AIME
+2025-06-07 20:46:15,316 - INFO - 
+📄 Processing 12/26
+2025-06-07 20:46:15,317 - INFO - Processing: JOY Business Case
+2025-06-07 20:46:15,318 - INFO - ⚪ No updates needed for JOY Business Case
+2025-06-07 20:46:16,324 - INFO - 
+📄 Processing 13/26
+2025-06-07 20:46:16,324 - INFO - Processing: Lightning Dec 24
+2025-06-07 20:46:16,326 - INFO - ⚪ No updates needed for Lightning Dec 24
+2025-06-07 20:46:17,328 - INFO - 
+📄 Processing 14/26
+2025-06-07 20:46:17,328 - INFO - Processing: IMAGI-NATION $100m Funder Invitation
+2025-06-07 20:46:17,332 - INFO - ⚪ No updates needed for IMAGI-NATION $100m Funder Invitation
+2025-06-07 20:46:18,338 - INFO - 
+📄 Processing 15/26
+2025-06-07 20:46:18,338 - INFO - Processing: Earth Commons Interview
+2025-06-07 20:46:18,339 - INFO - ⚪ No updates needed for Earth Commons Interview
+2025-06-07 20:46:19,345 - INFO - 
+📄 Processing 16/26
+2025-06-07 20:46:19,346 - INFO - Processing: Partnering Letter
+2025-06-07 20:46:19,347 - INFO - ⚪ No updates needed for Partnering Letter
+2025-06-07 20:46:20,350 - INFO - 
+📄 Processing 17/26
+2025-06-07 20:46:20,350 - INFO - Processing: Townhall Transcript
+2025-06-07 20:46:20,356 - INFO - ⚪ No updates needed for Townhall Transcript
+2025-06-07 20:46:21,361 - INFO - 
+📄 Processing 18/26
+2025-06-07 20:46:21,362 - INFO - Processing: NATION Tour Video Transcript
+2025-06-07 20:46:21,363 - INFO - ⚪ No updates needed for NATION Tour Video Transcript
+2025-06-07 20:46:22,367 - INFO - 
+📄 Processing 19/26
+2025-06-07 20:46:22,367 - INFO - Processing: IMAGI-Labs - Business case
+2025-06-07 20:46:22,367 - INFO -   Word count: 0
+2025-06-07 20:46:22,368 - INFO -   Language: English
+2025-06-07 20:46:22,368 - WARNING -   No text content available for IMAGI-Labs - Business case
+2025-06-07 20:46:22,782 - ERROR - Error updating document recb9WYbZVabylslv: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recb9WYbZVabylslv', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:22,783 - INFO - ✅ Updated IMAGI-Labs - Business case
+2025-06-07 20:46:23,788 - INFO - 
+📄 Processing 20/26
+2025-06-07 20:46:23,789 - INFO - Processing: Global Need
+2025-06-07 20:46:23,789 - INFO - ⚪ No updates needed for Global Need
+2025-06-07 20:46:24,792 - INFO - 
+📄 Processing 21/26
+2025-06-07 20:46:24,792 - INFO - Processing: Custodians - Business case
+2025-06-07 20:46:24,792 - INFO -   Word count: 0
+2025-06-07 20:46:24,793 - INFO -   Language: English
+2025-06-07 20:46:24,793 - WARNING -   No text content available for Custodians - Business case
+2025-06-07 20:46:25,172 - ERROR - Error updating document recqOZl5K1MgAD5BB: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recqOZl5K1MgAD5BB', '{\'type\': \'UNKNOWN_FIELD_NAME\', \'message\': \'Unknown field name: "Topics"\'}')
+2025-06-07 20:46:25,172 - INFO - ✅ Updated Custodians - Business case
+2025-06-07 20:46:26,177 - INFO - 
+📄 Processing 22/26
+2025-06-07 20:46:26,177 - INFO - Processing: Hoodie Economics
+2025-06-07 20:46:26,183 - INFO - ⚪ No updates needed for Hoodie Economics
+2025-06-07 20:46:27,188 - INFO - 
+📄 Processing 23/26
+2025-06-07 20:46:27,189 - INFO - Processing: Letter to Humanity
+2025-06-07 20:46:27,189 - INFO - ⚪ No updates needed for Letter to Humanity
+2025-06-07 20:46:28,192 - INFO - 
+📄 Processing 24/26
+2025-06-07 20:46:28,192 - INFO - Processing: Federal Government Grant
+2025-06-07 20:46:28,193 - INFO - ⚪ No updates needed for Federal Government Grant
+2025-06-07 20:46:29,196 - INFO - 
+📄 Processing 25/26
+2025-06-07 20:46:29,197 - INFO - Processing: No Shame at AIME
+2025-06-07 20:46:29,198 - INFO - ⚪ No updates needed for No Shame at AIME
+2025-06-07 20:46:30,201 - INFO - 
+📄 Processing 26/26
+2025-06-07 20:46:30,201 - INFO - Processing: IMAGI-NATION Summary
+2025-06-07 20:46:30,202 - INFO - ⚪ No updates needed for IMAGI-NATION Summary
+2025-06-07 20:46:31,204 - INFO - 
+🎉 Completed metadata fix for 26 documents!
+2025-06-07 20:46:31,205 - INFO - 📊 Check your Airtable to see the populated metadata

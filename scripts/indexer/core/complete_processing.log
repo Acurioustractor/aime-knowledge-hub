@@ -1,0 +1,60 @@
+2025-06-07 20:54:22,697 - INFO - 🎯 AIME Knowledge Hub - Complete Processor
+2025-06-07 20:54:22,697 - INFO - ==========================================
+2025-06-07 20:54:24,938 - INFO - Retrieved 26 documents from Airtable
+2025-06-07 20:54:24,938 - INFO - Found 6 documents needing completion
+2025-06-07 20:54:24,938 - INFO - 
+📄 Processing 1/6: Citizens - Business case
+2025-06-07 20:54:24,938 - INFO -   Generating summary...
+2025-06-07 20:54:27,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:54:27,199 - INFO -   Summary: The document "Citizens - Business case" advocates for a shift from traditional heroic entrepreneursh...
+2025-06-07 20:54:27,199 - INFO -   Themes: social entrepreneurship, collaborative leadership, systemic change, relational networks, collective intelligence
+2025-06-07 20:54:27,199 - INFO -   Word count: 5378
+2025-06-07 20:54:27,199 - INFO -   Language: English
+2025-06-07 20:54:27,552 - ERROR - ❌ Error updating Citizens - Business case: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/rec6KXadBjSgmQ2Qp', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:54:27,552 - INFO - 
+📄 Processing 2/6: IN {TV} Full Report
+2025-06-07 20:54:27,552 - INFO -   Generating summary...
+2025-06-07 20:54:30,974 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:54:30,978 - INFO -   Summary: The "IN {TV} Full Report" outlines the educational impact of the IMAGI-NATION{TV} initiative, detail...
+2025-06-07 20:54:30,978 - INFO -   Themes: educational impact, resource engagement, environmental awareness, social change, critical thinking
+2025-06-07 20:54:30,978 - INFO -   Word count: 1288
+2025-06-07 20:54:30,978 - INFO -   Language: English
+2025-06-07 20:54:31,368 - ERROR - ❌ Error updating IN {TV} Full Report: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recAOtKF00bJWwbCJ', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:54:31,369 - INFO - 
+📄 Processing 3/6: Mentor Credit - Business Case
+2025-06-07 20:54:31,369 - INFO -   Generating summary...
+2025-06-07 20:54:33,240 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:54:33,244 - INFO -   Summary: The "Mentor Credit - Business Case" document outlines a transformative approach to knowledge sharing...
+2025-06-07 20:54:33,245 - INFO -   Themes: knowledge sharing, relational economics, mentoring, sustainable value, knowledge transfer
+2025-06-07 20:54:33,245 - INFO -   Word count: 4528
+2025-06-07 20:54:33,245 - INFO -   Language: English
+2025-06-07 20:54:33,641 - ERROR - ❌ Error updating Mentor Credit - Business Case: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDNArTEGqLo7u9n', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:54:33,641 - INFO - 
+📄 Processing 4/6: Systems Change Residency: - Business Case
+2025-06-07 20:54:33,641 - INFO -   Generating summary...
+2025-06-07 20:54:36,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:54:36,313 - INFO -   Summary: The Systems Change Residency is an innovative program designed to support 130 visionary innovators i...
+2025-06-07 20:54:36,313 - INFO -   Themes: systems change, innovation, interdisciplinary collaboration, environmental solutions, transformative impact
+2025-06-07 20:54:36,313 - INFO -   Word count: 4867
+2025-06-07 20:54:36,313 - INFO -   Language: English
+2025-06-07 20:54:36,686 - ERROR - ❌ Error updating Systems Change Residency: - Business Case: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recDSuzFz7t5qzvE0', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:54:36,686 - INFO - 
+📄 Processing 5/6: IKSL - Business case
+2025-06-07 20:54:36,687 - INFO -   Generating summary...
+2025-06-07 20:54:39,217 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:54:39,227 - INFO -   Summary: The Indigenous Knowledge Systems Labs (IKSL) initiative seeks to integrate Indigenous wisdom into co...
+2025-06-07 20:54:39,227 - INFO -   Themes: Indigenous knowledge, sustainability, collaboration, climate adaptation, resource management
+2025-06-07 20:54:39,227 - INFO -   Word count: 4754
+2025-06-07 20:54:39,227 - INFO -   Language: English
+2025-06-07 20:54:39,619 - ERROR - ❌ Error updating IKSL - Business case: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recG3twq8Kx2R2ypr', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:54:39,620 - INFO - 
+📄 Processing 6/6: Presidents - Business Case
+2025-06-07 20:54:39,620 - INFO -   Generating summary...
+2025-06-07 20:54:41,681 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 20:54:41,685 - INFO -   Summary: The "Presidents - Business Case" document outlines a transformative program aimed at empowering youn...
+2025-06-07 20:54:41,685 - INFO -   Themes: youth empowerment, custodial economies, climate action, Indigenous knowledge, sustainable development
+2025-06-07 20:54:41,686 - INFO -   Word count: 5164
+2025-06-07 20:54:41,686 - INFO -   Language: English
+2025-06-07 20:54:42,094 - ERROR - ❌ Error updating Presidents - Business Case: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recHPVRGxDee7hDSO', "{'type': 'INVALID_VALUE_FOR_COLUMN', 'message': 'Value is not an array of record IDs.'}")
+2025-06-07 20:54:42,094 - INFO - 
+🎉 Completed processing 6 documents!

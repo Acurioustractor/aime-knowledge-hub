@@ -1,0 +1,402 @@
+2025-06-07 15:53:45,287 - INFO - Starting document indexing job
+2025-06-07 15:53:45,287 - ERROR - Error fetching documents from Airtable: 'tuple' object has no attribute 'startswith'
+2025-06-07 15:53:45,287 - INFO - No unprocessed documents found
+2025-06-07 15:54:02,668 - INFO - Starting document indexing job
+2025-06-07 15:54:02,668 - ERROR - Error fetching documents from Airtable: 'tuple' object has no attribute 'startswith'
+2025-06-07 15:54:02,669 - INFO - No unprocessed documents found
+2025-06-07 15:54:47,247 - INFO - Starting document indexing job
+2025-06-07 15:54:48,404 - INFO - Found 5 unprocessed documents out of 5 total
+2025-06-07 15:54:48,404 - INFO - Processing document: Mathematical Foundations of Machine Learning
+2025-06-07 15:54:50,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 15:54:50,258 - INFO - Created 3 chunks for document rec4SpcJ0gi9KIu5N
+2025-06-07 15:54:51,190 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-07 15:54:51,350 - INFO - Generated embeddings for 3 chunks
+2025-06-07 15:54:52,293 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 401 Unauthorized"
+2025-06-07 15:54:52,294 - ERROR - Error storing vectors in Supabase: {'code': '42501', 'details': None, 'hint': None, 'message': 'new row violates row-level security policy for table "document_chunks"'}
+2025-06-07 15:54:52,724 - INFO - Updated Airtable record rec4SpcJ0gi9KIu5N with 3 chunk IDs
+2025-06-07 15:54:53,064 - ERROR - Error processing document rec4SpcJ0gi9KIu5N: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/rec4SpcJ0gi9KIu5N', '{\'type\': \'INVALID_MULTIPLE_CHOICE_OPTIONS\', \'message\': \'Insufficient permissions to create new select option ""Mathematics""\'}')
+2025-06-07 15:54:54,069 - INFO - Processing document: 2024 AI Safety Report
+2025-06-07 15:54:55,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 15:54:55,484 - INFO - Created 3 chunks for document rec9DdzYsMIwaXVK7
+2025-06-07 15:54:56,247 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-07 15:54:56,401 - INFO - Generated embeddings for 3 chunks
+2025-06-07 15:54:56,512 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 401 Unauthorized"
+2025-06-07 15:54:56,513 - ERROR - Error storing vectors in Supabase: {'code': '42501', 'details': None, 'hint': None, 'message': 'new row violates row-level security policy for table "document_chunks"'}
+2025-06-07 15:54:56,985 - INFO - Updated Airtable record rec9DdzYsMIwaXVK7 with 3 chunk IDs
+2025-06-07 15:54:57,329 - ERROR - Error processing document rec9DdzYsMIwaXVK7: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/rec9DdzYsMIwaXVK7', '{\'type\': \'INVALID_MULTIPLE_CHOICE_OPTIONS\', \'message\': \'Insufficient permissions to create new select option ""AI Safety""\'}')
+2025-06-07 15:54:58,332 - INFO - Processing document: Ethics in AI Development - Best Practices Guide
+2025-06-07 15:54:59,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 15:54:59,575 - INFO - Created 3 chunks for document recHBjVql2jQKgTOG
+2025-06-07 15:55:00,776 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-07 15:55:00,988 - INFO - Generated embeddings for 3 chunks
+2025-06-07 15:55:01,067 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 401 Unauthorized"
+2025-06-07 15:55:01,067 - ERROR - Error storing vectors in Supabase: {'code': '42501', 'details': None, 'hint': None, 'message': 'new row violates row-level security policy for table "document_chunks"'}
+2025-06-07 15:55:01,488 - INFO - Updated Airtable record recHBjVql2jQKgTOG with 3 chunk IDs
+2025-06-07 15:55:01,894 - ERROR - Error processing document recHBjVql2jQKgTOG: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recHBjVql2jQKgTOG', '{\'type\': \'INVALID_MULTIPLE_CHOICE_OPTIONS\', \'message\': \'Insufficient permissions to create new select option ""Best Practices""\'}')
+2025-06-07 15:55:02,895 - INFO - Processing document: Machine Learning for Climate Science
+2025-06-07 15:55:03,989 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 15:55:03,993 - INFO - Created 1 chunks for document recOjW1adyorXib2y
+2025-06-07 15:55:04,494 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-07 15:55:04,496 - INFO - Generated embeddings for 1 chunks
+2025-06-07 15:55:04,613 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 401 Unauthorized"
+2025-06-07 15:55:04,613 - ERROR - Error storing vectors in Supabase: {'code': '42501', 'details': None, 'hint': None, 'message': 'new row violates row-level security policy for table "document_chunks"'}
+2025-06-07 15:55:05,084 - INFO - Updated Airtable record recOjW1adyorXib2y with 1 chunk IDs
+2025-06-07 15:55:05,438 - ERROR - Error processing document recOjW1adyorXib2y: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recOjW1adyorXib2y', '{\'type\': \'INVALID_MULTIPLE_CHOICE_OPTIONS\', \'message\': \'Insufficient permissions to create new select option ""Machine Learning""\'}')
+2025-06-07 15:55:06,442 - INFO - Processing document: AI Ethics in Healthcare
+2025-06-07 15:55:07,577 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 15:55:07,585 - INFO - Created 1 chunks for document recmBs0bPJfxccTjc
+2025-06-07 15:55:07,962 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-07 15:55:07,963 - INFO - Generated embeddings for 1 chunks
+2025-06-07 15:55:08,046 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 401 Unauthorized"
+2025-06-07 15:55:08,046 - ERROR - Error storing vectors in Supabase: {'code': '42501', 'details': None, 'hint': None, 'message': 'new row violates row-level security policy for table "document_chunks"'}
+2025-06-07 15:55:08,457 - INFO - Updated Airtable record recmBs0bPJfxccTjc with 1 chunk IDs
+2025-06-07 15:55:08,805 - ERROR - Error processing document recmBs0bPJfxccTjc: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recmBs0bPJfxccTjc', '{\'type\': \'INVALID_MULTIPLE_CHOICE_OPTIONS\', \'message\': \'Insufficient permissions to create new select option ""Healthcare""\'}')
+2025-06-07 15:55:09,806 - INFO - Indexing job completed. Processed 5 documents
+2025-06-07 15:57:10,686 - INFO - Starting document indexing job
+2025-06-07 15:57:11,880 - INFO - Found 0 unprocessed documents out of 6 total
+2025-06-07 15:57:11,880 - INFO - No unprocessed documents found
+2025-06-07 15:58:27,856 - INFO - Starting document indexing job
+2025-06-07 15:58:29,284 - INFO - Found 1 unprocessed documents out of 6 total
+2025-06-07 15:58:29,285 - INFO - Processing document: AIME Business Cases Summary
+2025-06-07 15:58:31,281 - WARNING - Unsupported file type for URL: https://v5.airtableusercontent.com/v3/u/41/41/1749283200000/0UTyVysoh5mLG9pim97gMA/BToxEPHbvZlxmzFJJaVNB9nSt7kXCPtvrv-Y9v8-9W8k536vvl7jxf_NPljLge-7L9awQfkql1od3YoN1imQuEvD6crolh_qj_2QfiL3a9P-RZm4sxx7F96dyywcE3ipIOlzheZPEnvvQ73tdV__u1fc2Jk9h8ofvVIzzGgqkb4/DzpkNLuFLwfXmTQucLwIAg1XPolAedWSVnxhlLCJpzo
+2025-06-07 15:58:32,494 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 15:58:32,501 - INFO - Created 0 chunks for document recItj6oIkKuRjbCD
+2025-06-07 15:58:33,506 - INFO - Indexing job completed. Processed 1 documents
+2025-06-07 15:59:37,010 - INFO - Starting document indexing job
+2025-06-07 15:59:38,218 - INFO - Found 1 unprocessed documents out of 6 total
+2025-06-07 15:59:38,218 - INFO - Processing document: AIME Business Cases Summary
+2025-06-07 15:59:38,410 - INFO - Processing markdown file: AIME Business cases (1).md (600594 characters)
+2025-06-07 15:59:40,141 - ERROR - Error processing document recItj6oIkKuRjbCD: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recItj6oIkKuRjbCD', '{\'type\': \'INVALID_VALUE_FOR_COLUMN\', \'message\': \'Field "Full Text" cannot accept the provided value\'}')
+2025-06-07 15:59:41,144 - INFO - Indexing job completed. Processed 1 documents
+2025-06-07 16:00:00,709 - INFO - Starting document indexing job
+2025-06-07 16:00:01,992 - INFO - Found 1 unprocessed documents out of 6 total
+2025-06-07 16:00:01,992 - INFO - Processing document: AIME Business Cases Summary
+2025-06-07 16:00:02,689 - INFO - Processing markdown file: AIME Business cases (1).md (600594 characters)
+2025-06-07 16:00:04,207 - INFO - Saved truncated text to Airtable for document recItj6oIkKuRjbCD (original: 599904 chars)
+2025-06-07 16:00:06,291 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 16:00:06,609 - INFO - Created 1359 chunks for document recItj6oIkKuRjbCD
+2025-06-07 16:00:11,560 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-07 16:00:14,007 - INFO - Generated embeddings for 1359 chunks
+2025-06-07 16:00:14,710 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 401 Unauthorized"
+2025-06-07 16:00:14,711 - ERROR - Error storing vectors in Supabase: {'code': '42501', 'details': None, 'hint': None, 'message': 'new row violates row-level security policy for table "document_chunks"'}
+2025-06-07 16:00:15,197 - INFO - Updated Airtable record recItj6oIkKuRjbCD with 1359 chunk IDs
+2025-06-07 16:00:15,551 - ERROR - Error processing document recItj6oIkKuRjbCD: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recItj6oIkKuRjbCD', '{\'type\': \'INVALID_MULTIPLE_CHOICE_OPTIONS\', \'message\': \'Insufficient permissions to create new select option ""Best Practices""\'}')
+2025-06-07 16:00:16,571 - INFO - Indexing job completed. Processed 1 documents
+2025-06-07 16:03:05,477 - INFO - Initialized Supabase client with anon key
+2025-06-07 16:03:05,477 - INFO - Starting document indexing job
+2025-06-07 16:03:07,287 - INFO - Found 0 unprocessed documents out of 6 total
+2025-06-07 16:03:07,288 - INFO - No unprocessed documents found
+2025-06-07 16:05:56,924 - INFO - Starting AIME Knowledge Hub Document Indexer
+2025-06-07 16:05:56,938 - INFO - Initialized Supabase client with anon key
+2025-06-07 16:05:56,938 - INFO - Starting document indexing job
+2025-06-07 16:05:58,640 - INFO - Found 1 unprocessed documents out of 6 total
+2025-06-07 16:05:58,640 - INFO - Processing document: AIME Business Cases Summary
+2025-06-07 16:05:59,657 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 16:05:59,719 - INFO - Created 233 chunks for document recItj6oIkKuRjbCD
+2025-06-07 16:06:01,498 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-07 16:06:03,063 - INFO - Generated embeddings for 233 chunks
+2025-06-07 16:06:03,296 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:03,398 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:03,534 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:03,620 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:03,712 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:03,803 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:03,890 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:03,979 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,069 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,155 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,237 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,342 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,433 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,522 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,605 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,707 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,851 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:04,981 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,086 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,200 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,289 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,377 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,469 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,576 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,667 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,752 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,841 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:05,923 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,009 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,093 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,176 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,266 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,352 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,439 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,526 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,611 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,702 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,819 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,906 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:06,998 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,087 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,176 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,271 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,361 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,452 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,541 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,625 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,710 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,810 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,898 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:07,983 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,074 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,165 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,252 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,346 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,440 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,534 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,626 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,716 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,803 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,891 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:08,980 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,076 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,161 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,242 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,337 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,425 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,523 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,615 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,700 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,786 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,877 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:09,970 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,068 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,172 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,282 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,412 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,522 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,628 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,759 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:10,893 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,035 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,181 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,267 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,359 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,445 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,534 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,625 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,712 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,805 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,896 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:11,986 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,076 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,176 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,267 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,353 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,443 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,531 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,631 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,727 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,815 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,907 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:12,997 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,081 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,174 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,260 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,348 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,433 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,524 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,612 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,711 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,803 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,885 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:13,971 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,060 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,155 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,243 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,329 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,418 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,508 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,610 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,700 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,787 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,876 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:14,963 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,053 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,151 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,237 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,327 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,421 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,516 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,630 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,718 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,803 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,887 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:15,973 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,060 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,148 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,246 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,338 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,428 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,533 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,643 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,745 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,839 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:16,924 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,009 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,105 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,205 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,325 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,414 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,527 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,641 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,730 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,816 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,903 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:17,995 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,094 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,200 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,311 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,430 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,554 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,693 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,815 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:18,944 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,087 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,222 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,309 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,399 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,498 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,588 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,676 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,768 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,857 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:19,947 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,032 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,122 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,214 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,309 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,405 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,502 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,589 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,675 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,760 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,849 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:20,934 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,025 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,109 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,199 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,286 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,405 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,489 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,578 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,666 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,765 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,854 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:21,941 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,038 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,133 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,222 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,314 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,402 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,495 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,582 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,666 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,753 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,845 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:22,937 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,026 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,110 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,195 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,283 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,375 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,461 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,551 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,636 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,731 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,817 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,905 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:23,990 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,079 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,165 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,255 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,342 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,428 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,513 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,598 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,686 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,775 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,859 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:24,947 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:25,032 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:25,119 - INFO - HTTP Request: POST https://ajqourhnlhkmfuflazkc.supabase.co/rest/v1/document_chunks "HTTP/2 201 Created"
+2025-06-07 16:06:25,121 - INFO - Stored 233 chunks in Supabase
+2025-06-07 16:06:25,666 - INFO - Updated Airtable record recItj6oIkKuRjbCD with 233 chunk IDs
+2025-06-07 16:06:26,057 - ERROR - Error processing document recItj6oIkKuRjbCD: ('422 Client Error: Unprocessable Entity for url: https://api.airtable.com/v0/appXnYfeQJjdRuySn/Documents/recItj6oIkKuRjbCD', '{\'type\': \'INVALID_MULTIPLE_CHOICE_OPTIONS\', \'message\': \'Insufficient permissions to create new select option ""Business Strategy""\'}')
+2025-06-07 16:06:27,067 - INFO - Indexing job completed. Processed 1 documents
+2025-06-07 16:06:27,068 - INFO - Indexer scheduled to run every hour
+2025-06-07 17:07:24,206 - INFO - Starting document indexing job
+2025-06-07 17:07:24,234 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-07 17:07:26,016 - INFO - Found 2 unprocessed documents out of 4 total
+2025-06-07 17:07:26,016 - INFO - Processing document: Hoodie Economics
+2025-06-07 17:07:27,232 - ERROR - Error extracting text from https://v5.airtableusercontent.com/v3/u/41/41/1749290400000/Lot9wSdczww7Q6czZugk3g/-UxsYnf4scQrt_zvB8uMBkYzR8XarKYCmN26FQlkQFH92AX-0P36c8x1OC2Bn2WBwubjRg0Vb-UuwQESOeohrt04FJDs_bsPBKdjhqunt53Sez8habLpG61AwNJMKOM2LUw1xIQ5Jixqj2chcjW2YzSFpu3AHEGeC7vZBx0JFMo/sKr9Nw5-3IMWwL59_l2mTtZOozin3YvXxB0eEVqOVRw: `pypdf` package not found, please install it with `pip install pypdf`
+2025-06-07 17:07:28,338 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 17:07:28,339 - INFO - Created 0 chunks for document recrdX7MvnjRfkQaz
+2025-06-07 17:07:29,344 - INFO - Processing document: No Shame at AIME
+2025-06-07 17:07:30,721 - ERROR - Error extracting text from https://v5.airtableusercontent.com/v3/u/41/41/1749290400000/I_AVSLVtmoCZenT8QC6M_Q/P9JFBAlXqxffysEw5F62Cvuvacg0sBzpc4FvtqOazjuQfufS2mt7P5dnCA1zY6JbPU1pM-cIQZE_Kk6bLN5IAvsOFmxLjvR8pQBKAltHc9InRWEySKoihSV9G0X_H7eF09hZ75qX4mQG4d3dJiZ1lhck6RFVGbVYgbJYCtAepZo/F52Xxh5Y7EFyktC7ZTHtcUX-N7SWpFAbEoPq1i1UNkc: `pypdf` package not found, please install it with `pip install pypdf`
+2025-06-07 17:07:31,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 17:07:31,901 - INFO - Created 0 chunks for document rectbX1JHy6Ap1I7H
+2025-06-07 17:07:32,906 - INFO - Indexing job completed. Processed 2 documents
+2025-06-07 18:08:20,401 - INFO - Starting document indexing job
+2025-06-07 18:08:20,433 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-07 18:08:22,655 - INFO - Found 0 unprocessed documents out of 4 total
+2025-06-07 18:08:22,655 - INFO - No unprocessed documents found
+2025-06-07 19:10:05,665 - INFO - Starting document indexing job
+2025-06-07 19:10:05,720 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-07 19:10:09,045 - INFO - Found 0 unprocessed documents out of 4 total
+2025-06-07 19:10:09,045 - INFO - No unprocessed documents found
+2025-06-07 20:11:02,459 - INFO - Starting document indexing job
+2025-06-07 20:11:02,528 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-07 20:11:07,351 - INFO - Found 0 unprocessed documents out of 4 total
+2025-06-07 20:11:07,352 - INFO - No unprocessed documents found
+2025-06-07 21:11:07,548 - INFO - Starting document indexing job
+2025-06-07 21:11:07,557 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-07 21:11:09,761 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-07 21:11:09,761 - INFO - No unprocessed documents found
+2025-06-07 22:34:10,630 - INFO - Starting document indexing job
+2025-06-07 22:34:10,684 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-07 22:34:14,273 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-07 22:34:14,273 - INFO - No unprocessed documents found
+2025-06-07 23:51:15,255 - INFO - Starting document indexing job
+2025-06-07 23:51:15,334 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-07 23:51:18,900 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-07 23:51:18,900 - INFO - No unprocessed documents found
+2025-06-08 01:12:56,046 - INFO - Starting document indexing job
+2025-06-08 01:12:56,341 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-08 01:13:00,362 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 01:13:00,362 - INFO - No unprocessed documents found
+2025-06-08 02:29:59,987 - INFO - Starting document indexing job
+2025-06-08 02:30:00,013 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-08 02:30:03,728 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 02:30:03,728 - INFO - No unprocessed documents found
+2025-06-08 03:57:15,334 - INFO - Starting document indexing job
+2025-06-08 03:57:15,394 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-08 03:57:19,088 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 03:57:19,088 - INFO - No unprocessed documents found
+2025-06-08 05:14:19,903 - INFO - Starting document indexing job
+2025-06-08 05:14:19,932 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-08 05:14:23,575 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 05:14:23,575 - INFO - No unprocessed documents found
+2025-06-08 06:40:06,576 - INFO - Starting document indexing job
+2025-06-08 06:40:10,797 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 06:40:10,797 - INFO - No unprocessed documents found
+2025-06-08 07:40:25,768 - INFO - Starting document indexing job
+2025-06-08 07:40:25,814 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-08 07:40:29,426 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 07:40:29,427 - INFO - No unprocessed documents found
+2025-06-08 08:40:29,701 - INFO - Starting document indexing job
+2025-06-08 08:40:29,732 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-08 08:40:33,541 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 08:40:33,541 - INFO - No unprocessed documents found
+2025-06-08 09:41:15,563 - INFO - Starting document indexing job
+2025-06-08 09:41:15,582 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /v0/appXnYfeQJjdRuySn/Documents
+2025-06-08 09:41:19,244 - INFO - Found 0 unprocessed documents out of 26 total
+2025-06-08 09:41:19,244 - INFO - No unprocessed documents found

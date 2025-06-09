@@ -1,0 +1,94 @@
+2025-06-07 20:59:57,162 - INFO - 🎯 Starting Theme Linking Process
+2025-06-07 20:59:57,176 - INFO - Loading theme mapping...
+2025-06-07 20:59:58,849 - INFO - Found 83 themes in Airtable
+2025-06-07 20:59:58,849 - INFO - Mapped 83 theme names to IDs
+2025-06-07 20:59:58,849 - INFO - Starting theme linking process...
+2025-06-07 21:00:00,039 - INFO - Found 26 documents
+2025-06-07 21:00:00,039 - INFO - Document 'WE - Full presentation' already has 5 themes linked
+2025-06-07 21:00:00,039 - INFO - Processing document: 'Citizens - Business case'
+2025-06-07 21:00:01,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:01,015 - INFO - Generated themes for 'Citizens - Business case': ['Collaborative Entrepreneurship', 'Systemic Change', 'Collective Intelligence', 'Network Building', 'Sustainable Impact']
+2025-06-07 21:00:01,473 - INFO - Created new theme: 'Collaborative Entrepreneurship' (rec2C6G3Q1urtzPlr)
+2025-06-07 21:00:01,902 - INFO - Created new theme: 'Collective Intelligence' (recT9yxsCEnyjjzGT)
+2025-06-07 21:00:02,518 - INFO - Created new theme: 'Network Building' (receSuFfwh7a9s56L)
+2025-06-07 21:00:03,042 - INFO - Created new theme: 'Sustainable Impact' (reck03ulIX2aIFcsY)
+2025-06-07 21:00:03,568 - INFO - Linked 5 themes to document rec6KXadBjSgmQ2Qp
+2025-06-07 21:00:04,570 - INFO - Document 'Letter to Billionaires' already has 4 themes linked
+2025-06-07 21:00:04,571 - INFO - Processing document: 'IN {TV} Full Report'
+2025-06-07 21:00:05,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:05,942 - INFO - Generated themes for 'IN {TV} Full Report': ['"Educational Impact"', '"Innovative Content Delivery"', '"Critical Thinking Development"', '"Environmental Awareness"', '"Storytelling for Change"']
+2025-06-07 21:00:06,400 - INFO - Created new theme: '"Educational Impact"' (rechRE5nCTGpvAYVJ)
+2025-06-07 21:00:06,865 - INFO - Created new theme: '"Innovative Content Delivery"' (rect6FcLABXzzPhk5)
+2025-06-07 21:00:07,359 - INFO - Created new theme: '"Critical Thinking Development"' (rec5C2iGmHdYKw4oK)
+2025-06-07 21:00:07,809 - INFO - Created new theme: '"Environmental Awareness"' (recm4CcwJcK9BHBq9)
+2025-06-07 21:00:08,239 - INFO - Created new theme: '"Storytelling for Change"' (recTaGr6QG4wvzctn)
+2025-06-07 21:00:08,652 - INFO - Linked 5 themes to document recAOtKF00bJWwbCJ
+2025-06-07 21:00:09,657 - INFO - Processing document: 'Mentor Credit - Business Case'
+2025-06-07 21:00:10,904 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:10,906 - INFO - Generated themes for 'Mentor Credit - Business Case': ['Mentoring Relationships', 'Knowledge Sharing', 'Relational Economics', 'Sustainable Value Creation', 'Collaborative Innovation']
+2025-06-07 21:00:11,358 - INFO - Created new theme: 'Mentoring Relationships' (recFf6vJMvtgx3aPE)
+2025-06-07 21:00:11,838 - INFO - Created new theme: 'Knowledge Sharing' (recT74s3Van0wlRLy)
+2025-06-07 21:00:12,297 - INFO - Created new theme: 'Sustainable Value Creation' (rec9nGYeOlC67gsjk)
+2025-06-07 21:00:12,779 - INFO - Created new theme: 'Collaborative Innovation' (reckE3KiKa1l2W07H)
+2025-06-07 21:00:13,294 - INFO - Linked 5 themes to document recDNArTEGqLo7u9n
+2025-06-07 21:00:14,296 - INFO - Processing document: 'Systems Change Residency: - Business Case'
+2025-06-07 21:00:15,748 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:15,750 - INFO - Generated themes for 'Systems Change Residency: - Business Case': ['"Systems Change Methodology"', '"Interdisciplinary Collaboration"', '"Transformative Solutions"', '"Environmental Sustainability"', '"Innovative Impact Strategies"']
+2025-06-07 21:00:16,260 - INFO - Created new theme: '"Systems Change Methodology"' (recHG2ORcF3VFqtce)
+2025-06-07 21:00:16,726 - INFO - Created new theme: '"Interdisciplinary Collaboration"' (recgfRthxSXe83nH8)
+2025-06-07 21:00:17,189 - INFO - Created new theme: '"Transformative Solutions"' (recdn8InnPaFrCzVE)
+2025-06-07 21:00:17,681 - INFO - Created new theme: '"Environmental Sustainability"' (rec38fpICO4BYncjC)
+2025-06-07 21:00:18,151 - INFO - Created new theme: '"Innovative Impact Strategies"' (reccOmh8cgBoKqrRs)
+2025-06-07 21:00:18,641 - INFO - Linked 5 themes to document recDSuzFz7t5qzvE0
+2025-06-07 21:00:19,642 - INFO - Document 'IMAGI-NATION Deck - JM' already has 4 themes linked
+2025-06-07 21:00:19,642 - INFO - Document 'GRP Draft logic' already has 4 themes linked
+2025-06-07 21:00:19,643 - INFO - Processing document: 'IKSL - Business case'
+2025-06-07 21:00:20,805 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:20,808 - INFO - Generated themes for 'IKSL - Business case': ['"Indigenous Knowledge Integration"', '"Sustainability Innovation"', '"Climate Adaptation Strategies"', '"Collaborative Problem-Solving"', '"Cultural Preservation and Impact"']
+2025-06-07 21:00:21,279 - INFO - Created new theme: '"Indigenous Knowledge Integration"' (recAx4iLGjVzx31Kt)
+2025-06-07 21:00:21,776 - INFO - Created new theme: '"Sustainability Innovation"' (recCXvOaqeLNI6IE6)
+2025-06-07 21:00:22,249 - INFO - Created new theme: '"Climate Adaptation Strategies"' (recmM4D5fjAxii5cO)
+2025-06-07 21:00:22,713 - INFO - Created new theme: '"Collaborative Problem-Solving"' (recc3NRe3lSCNjhXm)
+2025-06-07 21:00:23,179 - INFO - Created new theme: '"Cultural Preservation and Impact"' (recWeuNmloluy2tZv)
+2025-06-07 21:00:23,605 - INFO - Linked 5 themes to document recG3twq8Kx2R2ypr
+2025-06-07 21:00:24,606 - INFO - Processing document: 'Presidents - Business Case'
+2025-06-07 21:00:25,656 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:25,663 - INFO - Generated themes for 'Presidents - Business Case': ['Youth Empowerment', 'Custodial Economies', 'Climate Action', 'Indigenous Leadership', 'Sustainable Development Solutions']
+2025-06-07 21:00:26,121 - INFO - Created new theme: 'Climate Action' (recaB9maCuMGNKEmC)
+2025-06-07 21:00:26,606 - INFO - Created new theme: 'Indigenous Leadership' (recscL7AVz4TF4TJV)
+2025-06-07 21:00:27,040 - INFO - Created new theme: 'Sustainable Development Solutions' (rec933MJjlH6WIvQB)
+2025-06-07 21:00:27,525 - INFO - Linked 5 themes to document recHPVRGxDee7hDSO
+2025-06-07 21:00:28,530 - INFO - Document 'About AIME' already has 5 themes linked
+2025-06-07 21:00:28,531 - INFO - Document 'JOY Business Case' already has 4 themes linked
+2025-06-07 21:00:28,531 - INFO - Document 'Lightning Dec 24' already has 5 themes linked
+2025-06-07 21:00:28,531 - INFO - Document 'IMAGI-NATION $100m Funder Invitation' already has 5 themes linked
+2025-06-07 21:00:28,531 - INFO - Document 'Earth Commons Interview' already has 3 themes linked
+2025-06-07 21:00:28,532 - INFO - Document 'Partnering Letter' already has 4 themes linked
+2025-06-07 21:00:28,532 - INFO - Document 'Townhall Transcript' already has 1 themes linked
+2025-06-07 21:00:28,532 - INFO - Document 'NATION Tour Video Transcript' already has 4 themes linked
+2025-06-07 21:00:28,532 - INFO - Processing document: 'IMAGI-Labs - Business case'
+2025-06-07 21:00:29,522 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:29,526 - INFO - Generated themes for 'IMAGI-Labs - Business case': ['Transformative Education Model', 'Active Engagement Strategies', 'Creative Intelligence Hubs', 'Student Agency Development', 'Frameworks for Educational Leaders']
+2025-06-07 21:00:29,966 - INFO - Created new theme: 'Transformative Education Model' (recWP6XdWQ26RtKJC)
+2025-06-07 21:00:30,438 - INFO - Created new theme: 'Active Engagement Strategies' (recsWGBnppD7C2qZd)
+2025-06-07 21:00:30,877 - INFO - Created new theme: 'Creative Intelligence Hubs' (rec5DCDPWN8BoLIHs)
+2025-06-07 21:00:31,345 - INFO - Created new theme: 'Student Agency Development' (rece3TXoSUzA5kOfj)
+2025-06-07 21:00:31,783 - INFO - Created new theme: 'Frameworks for Educational Leaders' (recIti7IVUxY9YhHt)
+2025-06-07 21:00:32,244 - INFO - Linked 5 themes to document recb9WYbZVabylslv
+2025-06-07 21:00:33,246 - INFO - Document 'Global Need' already has 5 themes linked
+2025-06-07 21:00:33,246 - INFO - Processing document: 'Custodians - Business case'
+2025-06-07 21:00:34,346 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-07 21:00:34,350 - INFO - Generated themes for 'Custodians - Business case': ['"Network Governance Models"', '"Distributed Leadership Frameworks"', '"Indigenous Kinship Integration"', '"Collective Intelligence Strategies"', '"Accountability without Bureaucracy"']
+2025-06-07 21:00:34,819 - INFO - Created new theme: '"Network Governance Models"' (recjAEaEB697aSy8J)
+2025-06-07 21:00:35,277 - INFO - Created new theme: '"Distributed Leadership Frameworks"' (recwyqQuMR9IMIVPE)
+2025-06-07 21:00:35,762 - INFO - Created new theme: '"Indigenous Kinship Integration"' (recJl5V4W4YCj7YFV)
+2025-06-07 21:00:36,263 - INFO - Created new theme: '"Collective Intelligence Strategies"' (recDWFILCJQuVOyg4)
+2025-06-07 21:00:36,831 - INFO - Created new theme: '"Accountability without Bureaucracy"' (recxYZmVEqUJnqLEb)
+2025-06-07 21:00:37,294 - INFO - Linked 5 themes to document recqOZl5K1MgAD5BB
+2025-06-07 21:00:38,299 - INFO - Document 'Hoodie Economics' already has 3 themes linked
+2025-06-07 21:00:38,299 - INFO - Document 'Letter to Humanity' already has 5 themes linked
+2025-06-07 21:00:38,300 - INFO - Document 'Federal Government Grant' already has 5 themes linked
+2025-06-07 21:00:38,300 - INFO - Document 'No Shame at AIME' already has 5 themes linked
+2025-06-07 21:00:38,300 - INFO - Document 'IMAGI-NATION Summary' already has 4 themes linked
+2025-06-07 21:00:38,300 - INFO - Processing complete! Processed: 8, Successfully linked: 8
+2025-06-07 21:00:38,300 - INFO - ✅ Theme linking process completed!
